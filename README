@@ -1,1 +1,16 @@
+Roll a Ball + Clock Projects
 
+Both projects are located in the scenes folder
+  Roll a Ball is labeled as MiniGame
+  Clock is labeled as SampleScene
+
+* Roll a Ball is a game designed around a player, where the objective is to collect all 12 cubes without getting caught by the enemy.
+    The enemy is controlled using the NavMeshPro AI agent feature and is set to track the player.
+    If the player is caught, the player object will be destroyed, and the screen will display a game over text.
+    If the player successfully collects all twelve cubes, the enemy object will be destroyed and a text overlay saying "You Win!" will be displayed.
+    The game also has a count feature on the screen so you know your score.
+
+* The Clock is simply a dynamic game object that sets its time according to your computer's local time.
+    The clock offers a second, minute, and hour hand ticking just like any analog clock.  
+    There isn't much to the clock besides it displaying the time and incrementing it as well.
+    The clock uses Quaternion.Euler() as its basis of movement.
